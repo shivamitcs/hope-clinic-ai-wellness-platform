@@ -14,7 +14,7 @@ An AI-powered mental wellness platform designed to streamline therapy programs, 
 ---
 
 <p align="center">
-  <img src="./assets/branding/banner.png" width="100%" alt="Hope Clinic Banner" />
+  <img src="./assets/branding/hope-clinic-banner.png" alt="Hope Clinic Banner" width="100%" />
 </p>
 
 ---
@@ -49,6 +49,19 @@ The platform combines public healthcare experiences, therapy program discovery, 
 * Dark & light theme support
 * Multi-language support
 * Secure authentication workflows
+
+---
+
+# Platform Capabilities
+
+- Multi-step appointment workflows
+- AI-assisted patient support
+- Patient self-service portal
+- Administrative operations dashboard
+- Healthcare content publishing
+- Therapy program management
+- Secure authentication workflows
+- Responsive web experience
 
 ---
 
@@ -179,9 +192,76 @@ Healthcare Support
 
 # System Architecture
 
+The platform follows a modular full-stack architecture designed to support patient engagement, appointment management, AI-assisted wellness support, healthcare content delivery, and administrative operations.
+
 <p align="center">
-  <img src="./assets/architecture/system-architecture.png" width="100%" alt="System Architecture" />
+  <img src="./assets/architecture/hope-clinic-system-architecture.png" width="100%" alt="Hope Clinic System Architecture" />
 </p>
+
+### Architecture Overview
+
+```text
+Users
+│
+├── Public Visitors
+├── Patients
+├── Therapists
+└── Administrators
+        │
+        ▼
+Frontend Layer (React + Vite + Tailwind CSS)
+        │
+        ▼
+Backend API Layer (Node.js + Express.js)
+        │
+        ├── Authentication & Authorization
+        ├── Appointment Management
+        ├── AI Wellness Assistant
+        ├── Therapy Program Management
+        ├── Blog Management
+        ├── Testimonials Management
+        ├── Notification Services
+        └── Analytics & Reporting
+        │
+        ▼
+Database Layer (MongoDB)
+        │
+        ├── Users
+        ├── Appointments
+        ├── Programs
+        ├── Blog Posts
+        ├── Testimonials
+        └── Chat Sessions
+        │
+        ▼
+External Services
+        ├── AI Assistant
+        ├── Email Notifications
+        ├── Cloud Storage
+        └── SMS Services
+```
+
+### Key Architectural Principles
+
+- Modular and scalable application design
+- Secure JWT-based authentication
+- Role-based access control (RBAC)
+- Separation of frontend, backend, and data layers
+- Cloud-ready deployment architecture
+- Responsive user experience across devices
+- AI-assisted patient engagement workflows
+- Maintainable and extensible codebase
+
+---
+
+# Platform Preview
+
+Hope Clinic delivers a connected digital healthcare experience through
+therapy programs, appointment management, AI-assisted support,
+patient engagement, healthcare content, and administrative operations.
+
+The platform is designed to improve accessibility, streamline workflows,
+and provide a modern mental wellness experience for patients and healthcare teams.
 
 ---
 
@@ -190,7 +270,7 @@ Healthcare Support
 ## 🏥 Healthcare Operations Dashboard
 
 <p align="center">
-  <img src="./assets/screenshots/admin/dashboard-dark.png" width="100%" alt="Healthcare Operations Dashboard" />
+  <img src="./assets/screenshots/Admin-dashboard-dark.png" width="100%" alt="Healthcare Operations Dashboard" />
 </p>
 
 Modern operational dashboard providing visibility into appointments, platform activity, patient engagement, and healthcare workflows.
@@ -200,7 +280,7 @@ Modern operational dashboard providing visibility into appointments, platform ac
 ## 🤖 AI Wellness Assistant
 
 <p align="center">
-  <img src="./assets/screenshots/ai-chat/ai-chat-session.png" width="100%" alt="AI Wellness Assistant" />
+  <img src="./assets/screenshots/AI-chat-session.jpeg" width="100%" alt="AI Wellness Assistant" />
 </p>
 
 AI-powered patient support experience designed to improve accessibility, engagement, and wellness guidance.
@@ -210,27 +290,27 @@ AI-powered patient support experience designed to improve accessibility, engagem
 ## 📅 Intelligent Appointment Booking
 
 <p align="center">
-  <img src="./assets/screenshots/appointments/booking-step-3-dark.png" width="100%" alt="Appointment Booking Workflow" />
+  <img src="./assets/screenshots/Book your Appionment-3-dark.png" width="100%" alt="Appointment Booking Workflow" />
 </p>
 
 Streamlined multi-step appointment workflow enabling patients to schedule consultations efficiently.
 
 ---
 
-## 👤 Patient Portal Experience
+## 👤 Patient Dashboard
 
 <p align="center">
-  <img src="./assets/screenshots/patient/dashboard-dark.png" width="100%" alt="Patient Dashboard" />
+  <img src="./assets/screenshots/Patient-dashboard-dark.png" width="100%" alt="Patient Dashboard" />
 </p>
 
 Personalized patient dashboard providing appointment tracking, healthcare interactions, and wellness resources.
 
 ---
 
-## 📋 Appointment Management
+## 📋 Patient Appointment Management
 
 <p align="center">
-  <img src="./assets/screenshots/patient/appointments-dark.png" width="100%" alt="Patient Appointments" />
+  <img src="./assets/screenshots/Patient-Appoinments-dark.jpeg" width="100%" alt="Patient Appointment Management" />
 </p>
 
 Centralized appointment management experience for patients and healthcare teams.
@@ -240,37 +320,37 @@ Centralized appointment management experience for patients and healthcare teams.
 ## 🎯 Therapy Programs
 
 <p align="center">
-  <img src="./assets/screenshots/programs/programs-dark.png" width="100%" alt="Therapy Programs" />
+  <img src="./assets/screenshots/Programs-dark.png" width="100%" alt="Therapy Programs" />
 </p>
 
 Comprehensive wellness programs supporting mental health, counseling, recovery, and personal development.
 
 ---
 
-## 📝 Healthcare Content Platform
+## 📝 Mental Health Blog Platform
 
 <p align="center">
-  <img src="./assets/screenshots/blog/blog-dark.png" width="100%" alt="Healthcare Content Platform" />
+  <img src="./assets/screenshots/Blog-dark.png" width="100%" alt="Mental Health Blog Platform" />
 </p>
 
 Educational healthcare content designed to improve awareness, engagement, and patient outcomes.
 
 ---
 
-## ⭐ Success Stories & Testimonials
+## ⭐ Patient Success Stories
 
 <p align="center">
-  <img src="./assets/screenshots/testimonials/testimonials-dark.png" width="100%" alt="Testimonials" />
+  <img src="./assets/screenshots/Testimonials-dark.png" width="100%" alt="Patient Success Stories" />
 </p>
 
-Patient success stories and community-driven trust-building experiences.
+Community-driven testimonials and real-world wellness success stories.
 
 ---
 
 ## 🏥 Administrative Appointment Operations
 
 <p align="center">
-  <img src="./assets/screenshots/admin/appointments-dark.png" width="100%" alt="Administrative Appointment Operations" />
+  <img src="./assets/screenshots/Admin-Appoinments-dark.png" width="100%" alt="Administrative Appointment Operations" />
 </p>
 
 Administrative workflows for managing appointments, operational efficiency, and healthcare coordination.
@@ -317,14 +397,6 @@ assets/
 ├── architecture/
 ├── workflows/
 └── screenshots/
-    ├── landing/
-    ├── programs/
-    ├── blog/
-    ├── testimonials/
-    ├── appointments/
-    ├── ai-chat/
-    ├── patient/
-    └── admin/
 ```
 
 ---
@@ -355,6 +427,21 @@ assets/
 * AI-Powered Recommendations
 * Intelligent Healthcare Experiences
 * Scalable Digital Wellness Ecosystem
+
+---
+
+# Why This Platform Exists
+
+Mental wellness services are often fragmented across
+multiple disconnected systems.
+
+Hope Clinic was designed to unify patient engagement,
+appointment management, wellness programs,
+AI-assisted support, and healthcare operations
+into a single digital platform.
+
+The goal is to improve accessibility,
+operational efficiency, and patient experience.
 
 ---
 
