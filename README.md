@@ -21,9 +21,7 @@ An AI-powered mental wellness platform designed to streamline therapy programs, 
 
 ## 🌐 Live Platform
 
-* Website: https://hopeclinic.cloud
-* Admin Portal: https://hopeclinic.cloud/admin
-* Patient Portal: https://hopeclinic.cloud/dashboard
+https://hopeclinic.cloud
 
 ---
 
