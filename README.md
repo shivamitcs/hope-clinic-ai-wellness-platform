@@ -14,7 +14,7 @@ An AI-powered mental wellness platform designed to streamline therapy programs, 
 ---
 
 <p align="center">
-  <img src="./assets/branding/hope-clinic-banner.png" alt="Hope Clinic Banner" width="100%"/>
+  <img src="./assets/branding/hope-clinic-banner.png" alt="Hope Clinic Banner" width="100%" />
 </p>
 
 ---
